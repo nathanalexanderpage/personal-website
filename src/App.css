@@ -23,6 +23,24 @@
   color: #61dafb;
 }
 
+nav {
+  padding: 1px;
+  background-color: grey;
+}
+
+nav ul li {
+  text-align: center;
+  list-style: none;
+  display: inline;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
