@@ -3,11 +3,11 @@ import React from 'react';
 function Home() {
   return (
     <div>
+      <h2>
+        <span className="flare">&#9788;</span> Welcome! <span className="flare">&#9788;</span>
+      </h2>
       <p>
-        If you're looking at this page, it means you want me as an asset at your company; great! Have a look around at my general "about me" kinda stuff and some of my works. Ultimately where you'll want to end up is back on this page to use the contact form so we can get this hiring process in motion.
-      </p>
-      <p>
-        WINK
+        I am Nathan and you are someone I'd like to speak with. Please take a look around my site and use the 'Contact' section on the left if you feel we have some more to talk about. Thanks a bunch.
       </p>
     </div>
   )

@@ -3,16 +3,19 @@ import Header from './navigation/Header';
 import Nav from './navigation/Nav';
 import Content from './navigation/Content';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import './App.css'
+import './App.css';
 
 class App extends Component {
   render () {
     return (
-      <div>
-        <Header />
+      <div className="top">
         <Router>
-          <Nav />
-          <Content />
+          <div className="sidebar nav">
+            <Nav />
+          </div>
+          <div className="sidebar content">
+            <Content />
+          </div>
         </Router>
       </div>
     );

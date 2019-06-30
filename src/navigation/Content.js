@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 class Content extends Component {
   render () {
     return (
-      <div>
+      <div className="content-holder">
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/blog" component={Blog} />

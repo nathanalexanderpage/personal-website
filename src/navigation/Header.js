@@ -4,7 +4,7 @@ function Header() {
   return (
     <div>
       <h1>
-        Nathan's Portfolio
+        <a href="/">nathan<span className="faded">alexander</span>page</a>
       </h1>
     </div>
   )

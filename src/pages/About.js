@@ -4,10 +4,13 @@ function About() {
   return (
     <div>
       <h2>
-        It's ya about boi
+        <span className="flare">&#9788;</span> About Me <span className="flare">&#9788;</span>
       </h2>
       <p>
-        It's me here. Who? Me! My name's up top, dummy! Don't pretend you ever stopped wanting me on your dev team. I'm an up-and-coming, disruptive add to your team who's about to rock the sox off the executive branch from way down undah. What's that? You'd like to send me abroad? Well, that's just a little of my subliminal messaging talent at work. Not convinced? Try my services out free for one year for a small fee of a year's salary!
+        In case you came directly to this page: My name is Nathan. Hello.
+      </p>
+      <p>
+        I'm a full-stack web developer whose passions within programming lie in modularity and scalability, among other things. I recently emerged victorious from a three-month Software Engineering Immersive bootcamp experience at General Assembly in Seattle, and am ready to take my experience and know-how from this into industry to produce something worthy of pride. My energy in the workplace comes from feeling that what I deliver will have a positive impact on my team and more largely the end users. See the areas in which I have skills listed below.
       </p>
     </div>
   )
