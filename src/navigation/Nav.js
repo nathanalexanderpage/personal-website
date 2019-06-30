@@ -64,7 +64,6 @@ function Nav() {
       </div>
       <div className="trans t9">
       </div>
-
       <div className="links">
         <div className="links-content">
           <div>
@@ -72,122 +71,105 @@ function Nav() {
               -Contact-
             </h4>
           </div>
-          <div>
-            <a href="https://www.linkedin.com/in/nathanalexanderpage/" className="contact-flex">
-              <div className="contact-icon">
+          <div className="links-grid">
+            <div className="links-icon1">
+              <a href="https://www.linkedin.com/in/nathanalexanderpage/">
                 <img src="/linkedin-icon.png" className="contact-tile" />
-              </div>
-              <div className="contact-spacer">
-              </div>
+              </a>
+            </div>
+            <div className="links-text1">
               <div className="contact-text">
-                /nathanalexanderpage
-              </div>
-            </a>
-          </div>
-          <div>
-            <a href="https://github.com/nathanalexanderpage" className="contact-flex">
-              <div className="contact-icon">
-                <img src="/github-icon.png" className="contact-tile" />
-              </div>
-              <div className="contact-spacer">
-              </div>
-              <div className="contact-text">
-                /nathanalexanderpage
-              </div>
-            </a>
-          </div>
-          <div className="contact-flex">
-            <div className="contact-icon">
-              <img src="/phone-icon.png" className="contact-tile" />
-            </div>
-            <div className="contact-spacer">
-            </div>
-            <div className="contact-text">
-              (425) 829-2988
-            </div>
-          </div>
-          <div className="contact-flex">
-            <div className="contact-icon">
-              <img src="/email-icon.png" className="contact-tile" />
-            </div>
-            <div className="contact-spacer">
-            </div>
-            <div className="contact-text">
-              <div>
-                nathanalexander
-              </div>
-              <div>
-                page@gmail.com
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="links">
-        <div className="links-content">
-          <div>
-            <h4>
-              -Contact-
-            </h4>
-          </div>
-          <div>
-            <a href="https://www.linkedin.com/in/nathanalexanderpage/">
-              <div className="icon-div-holder">
-                <div className="contact-icon">
-                  <img src="/linkedin-icon.png" className="contact-tile" />
+                <div>
+                  <a href="https://www.linkedin.com/in/nathanalexanderpage/" className="white-link">
+                    /nathan
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.linkedin.com/in/nathanalexanderpage/" className="white-link">
+                    alexander
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.linkedin.com/in/nathanalexanderpage/" className="white-link">
+                    page
+                  </a>
                 </div>
               </div>
-              <div className="contact-spacer-inline">
-              </div>
-
-              <div className="contact-text-inline">
-                /nathanalexanderpage
-              </div>
-
-
-
-            </a>
-          </div>
-          <div>
-            <a href="https://github.com/nathanalexanderpage" className="contact-flex">
-              <div className="contact-icon">
+            </div>
+            <div className="links-icon2">
+              <a href="https://github.com/nathanalexanderpage">
                 <img src="/github-icon.png" className="contact-tile" />
-              </div>
-              <div className="contact-spacer">
-              </div>
+              </a>
+            </div>
+            <div className="links-text2">
               <div className="contact-text">
-                /nathanalexanderpage
+                <div>
+                  <a href="https://github.com/nathanalexanderpage" className="white-link">
+                    /nathan
+                  </a>
+                </div>
+                <div>
+                  <a href="https://github.com/nathanalexanderpage" className="white-link">
+                    alexander
+                  </a>
+                </div>
+                <div>
+                  <a href="https://github.com/nathanalexanderpage" className="white-link">
+                    page
+                  </a>
+                </div>
               </div>
-            </a>
-          </div>
-          <div className="contact-flex">
-            <div className="contact-icon">
+            </div>
+            <div className="links-icon3">
               <img src="/phone-icon.png" className="contact-tile" />
             </div>
-            <div className="contact-spacer">
-            </div>
+            <div className="links-text3">
             <div className="contact-text">
-              (425) 829-2988
+              <div>
+                (425)
+              </div>
+              <div>
+                829-
+              </div>
+              <div>
+                2988
+              </div>
             </div>
-          </div>
-          <div className="contact-flex">
-            <div className="contact-icon">
+            </div>
+            <div className="links-icon4">
               <img src="/email-icon.png" className="contact-tile" />
             </div>
-            <div className="contact-spacer">
-            </div>
-            <div className="contact-text">
-              <div>
-                nathanalexander
-              </div>
-              <div>
-                page@gmail.com
+            <div className="links-text4">
+              <div className="contact-text">
+                <div className="contact-text">
+                  <div>
+                    nathan
+                  </div>
+                  <div>
+                    alexander
+                  </div>
+                </div>
+                <div className="contact-text">
+                  <div>
+                    page@
+                  </div>
+                  <div>
+                    gmail.com
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
         </div>
       </div>
+
+
+
+
+
+
+
     </div>
   )
 }

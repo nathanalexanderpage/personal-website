@@ -61,6 +61,7 @@
 
 .header {
   padding-left: 2vw;
+  background-color: darkgrey;
 }
 
 .icon-div-holder {
@@ -78,9 +79,30 @@
   padding: 2vw;
 }
 
+.links-grid {
+  display: inline-grid;
+  grid-template-areas:
+    'icon1 text1'
+    'icon2 text2'
+    'icon3 text3'
+    'icon4 text4';
+  grid-column-gap: .4vw;
+  grid-row-gap: .4vw;
+}
+
+.links-icon1 { grid-area: icon1; }
+.links-text1 { grid-area: text1; }
+.links-icon2 { grid-area: icon2; }
+.links-text2 { grid-area: text2; }
+.links-icon3 { grid-area: icon3; }
+.links-text3 { grid-area: text3; }
+.links-icon4 { grid-area: icon4; }
+.links-text4 { grid-area: text4; }
+
+
 .nav {
   width: 30vw;
-  background-color: darkgrey;
+  background-color: black;
 }
 
 .navlist > a {
@@ -162,6 +184,11 @@
 
 .t9 {
   background-color: #1e1e1e;
+}
+
+.white-link {
+  color: white;
+  text-decoration: none;
 }
 
 a:link > .navitem {
