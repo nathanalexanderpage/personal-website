@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import ClickToCopyText from '../tools/ClickToCopyText'
 
 function Nav() {
   return (
@@ -23,31 +24,31 @@ function Nav() {
       </div>
       <nav>
         <ul className="navlist">
-          <Link to="/">
+          <a href="#top">
             <li className="navitem">
               Top
             </li>
-          </Link>
-          <Link to="/about">
+          </a>
+          <a href="#about">
             <li className="navitem">
               About
             </li>
-          </Link>
-          <Link to="/projects">
+          </a>
+          <a href="#skills">
             <li className="navitem">
               Skills
             </li>
-          </Link>
-          <Link to="/projects">
+          </a>
+          <a href="#projects">
             <li className="navitem">
               Projects
             </li>
-          </Link>
-          <Link to="/projects">
+          </a>
+          <a href={process.env.PUBLIC_URL + '/NathanAlexanderPage_Resume.pdf'}>
             <li className="navitem">
               Resume
             </li>
-          </Link>
+          </a>
         </ul>
       </nav>
       <div className="trans t3">
@@ -74,23 +75,23 @@ function Nav() {
           <div className="links-grid">
             <div className="links-icon1">
               <a href="https://www.linkedin.com/in/nathanalexanderpage/">
-                <img src="/linkedin-icon.png" className="contact-tile" />
+                <img src="/linkedin-icon.png" className="contact-tile no-select" />
               </a>
             </div>
             <div className="links-text1">
               <div className="contact-text">
                 <div>
-                  <a href="https://www.linkedin.com/in/nathanalexanderpage/" className="white-link">
+                  <a href="https://www.linkedin.com/in/nathanalexanderpage/" className="white-link no-select">
                     /nathan
                   </a>
                 </div>
                 <div>
-                  <a href="https://www.linkedin.com/in/nathanalexanderpage/" className="white-link">
+                  <a href="https://www.linkedin.com/in/nathanalexanderpage/" className="white-link no-select">
                     alexander
                   </a>
                 </div>
                 <div>
-                  <a href="https://www.linkedin.com/in/nathanalexanderpage/" className="white-link">
+                  <a href="https://www.linkedin.com/in/nathanalexanderpage/" className="white-link no-select">
                     page
                   </a>
                 </div>
@@ -98,33 +99,33 @@ function Nav() {
             </div>
             <div className="links-icon2">
               <a href="https://github.com/nathanalexanderpage">
-                <img src="/github-icon.png" className="contact-tile" />
+                <img src="/github-icon.png" className="contact-tile no-select" />
               </a>
             </div>
             <div className="links-text2">
               <div className="contact-text">
                 <div>
-                  <a href="https://github.com/nathanalexanderpage" className="white-link">
+                  <a href="https://github.com/nathanalexanderpage" className="white-link no-select">
                     /nathan
                   </a>
                 </div>
                 <div>
-                  <a href="https://github.com/nathanalexanderpage" className="white-link">
+                  <a href="https://github.com/nathanalexanderpage" className="white-link no-select">
                     alexander
                   </a>
                 </div>
                 <div>
-                  <a href="https://github.com/nathanalexanderpage" className="white-link">
+                  <a href="https://github.com/nathanalexanderpage" className="white-link no-select">
                     page
                   </a>
                 </div>
               </div>
             </div>
             <div className="links-icon3">
-              <img src="/phone-icon.png" className="contact-tile" />
+              <img src="/phone-icon.png" className="contact-tile no-select" />
             </div>
             <div className="links-text3">
-            <div className="contact-text">
+            <div className="contact-text no-select">
               <div>
                 (425)
               </div>
@@ -137,10 +138,10 @@ function Nav() {
             </div>
             </div>
             <div className="links-icon4">
-              <img src="/email-icon.png" className="contact-tile" />
+              <img src="/email-icon.png" className="contact-tile no-select" />
             </div>
             <div className="links-text4">
-              <div className="contact-text">
+              <div className="contact-text no-select">
                 <div className="contact-text">
                   <div>
                     nathan
@@ -161,9 +162,11 @@ function Nav() {
             </div>
           </div>
 
+
         </div>
       </div>
 
+      <ClickToCopyText passVal="nathanalexanderpage@gmail.com" />
 
 
 

@@ -64,6 +64,10 @@
   background-color: darkgrey;
 }
 
+.hide {
+  display: none;
+}
+
 .icon-div-holder {
   display: inline-block;
 }
@@ -137,6 +141,22 @@
   background-color: white;
 }
 
+.projlink {
+  display: inline-block;
+  margin: 2px;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 1vw;
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+}
+
+.projlink:hover {
+  background-color: black;
+  color: yellow;
+}
+
 .sidebar {
   /* display: inline-block; */
 }
@@ -186,6 +206,10 @@
   background-color: #1e1e1e;
 }
 
+.tiny {
+  font-size: 10px;
+}
+
 .white-link {
   color: white;
   text-decoration: none;
@@ -217,6 +241,10 @@ h1 {
 h2 {
   text-align: center;
   font-size: 5vw;
+}
+
+h3 {
+  font-size: 24px;
 }
 
 h4 {

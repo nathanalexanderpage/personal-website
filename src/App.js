@@ -13,7 +13,7 @@ class App extends Component {
           <div className="sidebar nav">
             <Nav />
           </div>
-          <div className="sidebar content">
+          <div id="top" className="sidebar content">
             <Content />
           </div>
         </Router>
