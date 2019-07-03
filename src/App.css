@@ -1,3 +1,7 @@
+@media query {
+
+}
+
 .contact-tile {
   width: 2.5vw;
 }
@@ -80,7 +84,7 @@
 }
 
 .links-content {
-  padding: 2vw;
+  padding: 5px 2vw;
 }
 
 .links-grid {
@@ -137,7 +141,7 @@
 
 .proj {
   border-radius: 4px;
-  padding: 0 4px 0 4px;
+  padding: 1vw 3vw 1vw 3vw;
   background-color: white;
 }
 
@@ -277,4 +281,47 @@ nav ul li a {
 ul {
   margin: 1vw;
   padding: 0;
+}
+
+@media (max-width: 699px) {
+  .navlist > a > .navitem {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 16.1px;
+  }
+}
+
+@media (max-width: 499px) {
+  .navlist > a > .navitem {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 700px) {
+  h2 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 900px) {
+  .content {
+    width: 100%;
+  }
+
+  .nav, .trans, .links {
+    width: 270px;
+  }
+
+  .navlist > a > .navitem {
+    font-size: 27px;
+  }
+}
+@media (min-width: 1000px) {
+  .header {
+    padding-left: 20px;
+  }
+  h1 {
+    font-size: 50px;
+  }
 }

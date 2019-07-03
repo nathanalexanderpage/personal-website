@@ -3,7 +3,7 @@ import React from 'react';
 function Home() {
   return (
     <div>
-      <div>
+      <div className="sec first">
         <h2>
           <span className="flare">&#9788;</span> Welcome! <span className="flare">&#9788;</span>
         </h2>
@@ -14,7 +14,7 @@ function Home() {
         </div>
 
       </div>
-      <div id="about">
+      <div id="about" className="sec">
         <h2>
           <span className="flare">&#9788;</span> About Me <span className="flare">&#9788;</span>
         </h2>
@@ -28,7 +28,7 @@ function Home() {
         </div>
 
       </div>
-      <div id="skills">
+      <div id="skills" className="sec">
         <h2>
           <span className="flare">&#9788;</span> Skills <span className="flare">&#9788;</span>
         </h2>
@@ -42,7 +42,7 @@ function Home() {
         </div>
 
       </div>
-      <div id="projects">
+      <div id="projects" className="sec">
         <h2>
           <span className="flare">&#9788;</span> Projects <span className="flare">&#9788;</span>
         </h2>
