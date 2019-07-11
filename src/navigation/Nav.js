@@ -125,7 +125,7 @@ function Nav() {
               <img src="/phone-icon.png" className="contact-tile no-select" />
             </div>
             <div className="links-text3">
-            <div className="contact-text no-select">
+            <div id="phone" className="contact-text no-select">
               <div>
                 (425)
               </div>
@@ -141,7 +141,7 @@ function Nav() {
               <img src="/email-icon.png" className="contact-tile no-select" />
             </div>
             <div className="links-text4">
-              <div className="contact-text no-select">
+              <div id="email" className="contact-text no-select">
                 <div className="contact-text">
                   <div>
                     nathan
@@ -165,14 +165,6 @@ function Nav() {
 
         </div>
       </div>
-
-      <ClickToCopyText passVal="nathanalexanderpage@gmail.com" />
-
-
-
-
-
-
     </div>
   )
 }
