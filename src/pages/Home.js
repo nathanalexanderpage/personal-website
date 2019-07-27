@@ -34,10 +34,16 @@ function Home() {
         </h2>
         <div className="proj">
           <p>
-            In case you came directly to this page: My name is Nathan. Hello.
+            Frontend: JavaScript, React, Redux, EJS, jQuery, ES6, HTML5, CSS3, Bootstrap, Materialize
           </p>
           <p>
-            I'm a full-stack web developer whose passions within programming lie in modularity and scalability, among other things. I recently emerged victorious from a three-month Software Engineering Immersive bootcamp experience at General Assembly in Seattle, and am ready to take my experience and know-how from this into industry to produce something worthy of pride. My energy in the workplace comes from feeling that what I deliver will have a positive impact on my team and more largely the end users. See the areas in which I have skills listed below.
+            Backend: Python, Node.js, Express.js
+          </p>
+          <p>
+            Database: MongoDB, Mongoose, SQL, PostgreSQL, Sequelize ORM
+          </p>
+          <p>
+            Technologies: Git, GitHub, Auth, Phaser.io, RESTful routing, Cheerio.js, Beautiful Soup, Ajax
           </p>
         </div>
 
@@ -80,7 +86,7 @@ function Home() {
             A task management app for business to keep track of the status of all to-do items in a given time frame (as it relates to software development, a "sprint"). On the backend is a MongoDB database, with which the React.js frontend interacts using the Mongoose ORM.
           </p>
           <div>
-            <a href="#">
+            <a href="http://kerokero.herokuapp.com/">
               <div className="projlink projsite">
                 Live site
               </div>
