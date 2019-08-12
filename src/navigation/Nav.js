@@ -23,7 +23,7 @@ function Nav() {
       <div className="trans t2">
       </div>
       <nav>
-        <ul className="navlist">
+        <ul className="navlist no-select">
           <a href="#top">
             <li className="navitem">
               Top

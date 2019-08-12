@@ -43,7 +43,7 @@ function Home() {
             Database: MongoDB, Mongoose, SQL, PostgreSQL, Sequelize ORM
           </p>
           <p>
-            Technologies: Git, GitHub, Auth, Phaser.io, RESTful routing, Cheerio.js, Beautiful Soup, Ajax
+            Technologies: Git, GitHub, Ajax, RESTful routing, Auth, Regex, Cheerio.js, Beautiful Soup, Phaser.io
           </p>
         </div>
 
@@ -114,7 +114,7 @@ function Home() {
             Nintendo's Pokemon franchise has an ultra-popular series of home and mobile games that have had followers young and old for over two decades. Some are content with a casual play style, but there is also a competitive scene wherein a lot of strategy goes into the formation of a team -- a so-called "party" -- of six Pokemon.  When you haven't played through the games enough times to know what kind of Pokemon to use, or you want to make side-by-side comparisons of multiple possible party configurations, this app will drastically shorten the length of time you need to do so, while giving you all the data you need to make informed strategic decisions.
           </p>
           <div>
-            <a href="#">
+            <a href="https://pokemonpartyplanner.herokuapp.com">
               <div className="projlink projsite">
                 Live site
               </div>
