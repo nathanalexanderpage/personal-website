@@ -69,7 +69,7 @@ function Nav() {
         <div className="links-content">
           <div>
             <h4>
-              -Contact-
+              Contact
             </h4>
           </div>
           <div className="links-grid">
