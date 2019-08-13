@@ -60,7 +60,7 @@ function Home() {
             Oftentimes the way shipping organizations are set up makes the user use several different software simultaneously to get a single job complete. The idea behind my app is that shipping should be a one-stop shop, whether the user is an employee or customer of the shipping line. On the back end I set up a Django app acting as an API with a PostgreSQL database. The front end is an additional decoupled Django app that submits all data changes via said backend API, and displays returned data appropriately using Django's templating language, DTL.
           </p>
           <div>
-            <a href="#">
+            <a href="https://shappit.herokuapp.com">
               <div className="projlink projsite">
                 Live site
               </div>
