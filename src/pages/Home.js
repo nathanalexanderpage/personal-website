@@ -78,6 +78,32 @@ function Home() {
 
         <div className="proj">
           <h3>
+            #DidTheyForget
+          </h3>
+          <p>
+            Their tweet says #NeverForget, but does their voting record match?
+          </p>
+          <p>
+            Inspired by a speech John Stewart made in front of a largely absent congress in a hearing regarding the Never Forget the Heroes: James Zadroga, Ray Pfeifer, and Luis Alvarez Permanent Authorization of the September 11th Victim Compensation Fund Act; this project surrounds a Twitter account that, upon the click of a button, searches for tweets posted by members of the US congress and which include the hashtag "#NeverForget" in reference to 9/11. Once found, an automatic response to each tweet is sent containing each respective congressperson's support record for each different iteration of 9/11 first responders victim compensation bill.
+          </p>
+          <div>
+            <a href="https://twitter.com/DidTheyForget">
+              <div className="projlink projsite">
+                Twitter profile
+              </div>
+            </a>
+            <a href="https://github.com/nathanalexanderpage">
+              <div className="projlink projgithub">
+                Github repo
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <hr />
+
+        <div className="proj">
+          <h3>
             Kero
           </h3>
           <p>
