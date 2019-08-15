@@ -84,7 +84,7 @@ function Home() {
             Inspired by a speech John Stewart made in front of a largely absent congress in a hearing regarding the Never Forget the Heroes: James Zadroga, Ray Pfeifer, and Luis Alvarez Permanent Authorization of the September 11th Victim Compensation Fund Act; this project surrounds a Twitter account that, upon the click of a button, searches for tweets posted by members of the US congress and which include the hashtag "#NeverForget" in reference to 9/11. Once found, an automatic response to each tweet is sent containing each respective congressperson's support record for each different iteration of 9/11 first responders victim compensation bill.
           </p>
           <p>
-            Currently underway: automating the tweet initiation with AWS Lambda and FC2.
+            Currently underway: automating tweet search and post process with AWS Lambda and EC2.
           </p>
           <div>
             <a href="https://twitter.com/DidTheyForget">
