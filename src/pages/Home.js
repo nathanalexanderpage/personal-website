@@ -20,9 +20,6 @@ function Home() {
         </h2>
         <div className="proj">
           <p>
-            In case you came directly to this page: My name is Nathan. Hello.
-          </p>
-          <p>
             I'm a full-stack web developer whose passions within programming lie in modularity and scalability, among other things. I recently emerged victorious from a three-month Software Engineering Immersive bootcamp experience at General Assembly in Seattle, and am ready to take my experience and know-how from this into industry to produce something worthy of pride. My energy in the workplace comes from feeling that what I deliver will have a positive impact on my team and more largely the end users. See the areas in which I have skills listed below.
           </p>
         </div>
@@ -40,7 +37,7 @@ function Home() {
             Backend: Python, Node.js, Express.js
           </p>
           <p>
-            Database: MongoDB, Mongoose, SQL, PostgreSQL, Sequelize ORM
+            Database: MongoDB, Mongoose (ORM), SQL, PostgreSQL, Sequelize (ORM)
           </p>
           <p>
             Technologies: Git, GitHub, Ajax, RESTful routing, Auth, Regex, Cheerio.js, Beautiful Soup, Phaser.io
@@ -85,6 +82,9 @@ function Home() {
           </p>
           <p>
             Inspired by a speech John Stewart made in front of a largely absent congress in a hearing regarding the Never Forget the Heroes: James Zadroga, Ray Pfeifer, and Luis Alvarez Permanent Authorization of the September 11th Victim Compensation Fund Act; this project surrounds a Twitter account that, upon the click of a button, searches for tweets posted by members of the US congress and which include the hashtag "#NeverForget" in reference to 9/11. Once found, an automatic response to each tweet is sent containing each respective congressperson's support record for each different iteration of 9/11 first responders victim compensation bill.
+          </p>
+          <p>
+            Currently underway: automating the tweet initiation with AWS Lambda and FC2.
           </p>
           <div>
             <a href="https://twitter.com/DidTheyForget">
