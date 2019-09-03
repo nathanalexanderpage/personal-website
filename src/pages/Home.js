@@ -9,7 +9,7 @@ function Home() {
         </h2>
         <div className="proj">
           <p>
-            I am Nathan and you are someone I'd like to speak with. Please take a look around my site and use the 'Contact' section on the left if you feel we have some more to talk about. Thanks a bunch.
+            I'm Nathan. Please take a look around my site and use the 'Contact' section on the left if you feel we have some more to talk about. Thanks a bunch.
           </p>
         </div>
 
@@ -43,8 +43,8 @@ function Home() {
             Technologies: Git, GitHub, Ajax, RESTful routing, Auth, Regex, Cheerio.js, Beautiful Soup, Phaser.io
           </p>
         </div>
-
       </div>
+
       <div id="projects" className="sec">
         <h2>
           <span className="flare">&#9788;</span> Projects <span className="flare">&#9788;</span>
@@ -52,10 +52,10 @@ function Home() {
 
         <div className="proj">
           <h3>
-            Pokemon Party Planner
+            Pokémon Party Planner
           </h3>
           <p>
-            Nintendo's Pokemon franchise has an ultra-popular series of home and mobile games that have had followers young and old for over two decades. Some are content with a casual play style, but there is also a competitive scene wherein a lot of strategy goes into the formation of a team -- a so-called "party" -- of six Pokemon.  When you haven't played through the games enough times to know what kind of Pokemon to use, or you want to make side-by-side comparisons of multiple possible party configurations, this app will drastically shorten the length of time you need to do so, while giving you all the data you need to make informed strategic decisions.
+            Nintendo's Pokémon franchise has an ultra-popular series of home and mobile games that have had followers young and old for over two decades. Some are content with a casual play style, but there is also a competitive scene wherein a lot of strategy goes into the formation of a team -- a so-called "party" -- of six pokémon.  When you haven't played through the games enough times to know what kind of pokémon to use, or you want to make side-by-side comparisons of multiple possible party configurations, this app will drastically shorten the length of time you need to do so, while giving you all the data you need to make informed strategic decisions.
           </p>
           <div>
             <a href="https://pokemonpartyplanner.herokuapp.com">
@@ -81,7 +81,7 @@ function Home() {
             Their tweet says #NeverForget, but does their voting record match?
           </p>
           <p>
-            Inspired by a speech John Stewart made in front of a largely absent congress in a hearing regarding the Never Forget the Heroes: James Zadroga, Ray Pfeifer, and Luis Alvarez Permanent Authorization of the September 11th Victim Compensation Fund Act; this project surrounds a Twitter account that, upon the click of a button, searches for tweets posted by members of the US congress and which include the hashtag "#NeverForget" in reference to 9/11. Once found, an automatic response to each tweet is sent containing each respective congressperson's support record for each different iteration of 9/11 first responders victim compensation bill.
+            Inspired by a speech John Stewart made in front of a largely absent congress in a hearing regarding the Never Forget the Heroes: James Zadroga, Ray Pfeifer, and Luis Alvarez Permanent Authorization of the September 11th Victim Compensation Fund Act; this project surrounds a Twitter account that, upon the click of a button, searches for tweets posted by members of the US congress and which include the hashtag "#NeverForget" in reference to 9/11. Once found, an automatic response to each tweet is sent containing each respective congressperson's support record for each different past iteration of the finally-passed 9/11 first responders victim compensation bill.
           </p>
           <p>
             Currently underway: automating tweet search and post process with AWS Lambda and EC2.
@@ -155,7 +155,6 @@ function Home() {
             </a>
           </div>
         </div>
-
       </div>
     </div>
   )
