@@ -121,32 +121,7 @@ function Nav() {
                 </div>
               </div>
             </div>
-            <div className="links-icon4">
-              <img src="/email-icon.png" className="contact-tile no-select" />
-            </div>
-            <div className="links-text4">
-              <div id="email" className="contact-text no-select">
-                <div className="contact-text">
-                  <div>
-                    nathan
-                  </div>
-                  <div>
-                    alexander
-                  </div>
-                </div>
-                <div className="contact-text">
-                  <div>
-                    page@
-                  </div>
-                  <div>
-                    gmail.com
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
-
-
         </div>
       </div>
     </div>
