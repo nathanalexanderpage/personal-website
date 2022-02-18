@@ -3,7 +3,7 @@ import About from '../pages/About';
 import Blog from '../pages/Blog';
 import Projects from '../pages/Projects';
 import Home from '../pages/Home';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 class Content extends Component {
   render () {

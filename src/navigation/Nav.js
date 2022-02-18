@@ -1,6 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import ClickToCopyText from '../tools/ClickToCopyText'
 
 function Nav() {
   return (
@@ -75,7 +73,7 @@ function Nav() {
           <div className="links-grid">
             <div className="links-icon1">
               <a href="https://www.linkedin.com/in/nathanalexanderpage/">
-                <img src="/linkedin-icon.png" className="contact-tile no-select" />
+                <img src="/linkedin-icon.png" alt="LinkedIn logo" className="contact-tile no-select" />
               </a>
             </div>
             <div className="links-text1">
@@ -99,7 +97,7 @@ function Nav() {
             </div>
             <div className="links-icon2">
               <a href="https://github.com/nathanalexanderpage">
-                <img src="/github-icon.png" className="contact-tile no-select" />
+                <img src="/github-icon.png" alt="GitHub logo" className="contact-tile no-select" />
               </a>
             </div>
             <div className="links-text2">
