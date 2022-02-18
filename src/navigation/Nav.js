@@ -121,22 +121,6 @@ function Nav() {
                 </div>
               </div>
             </div>
-            <div className="links-icon3">
-              <img src="/phone-icon.png" className="contact-tile no-select" />
-            </div>
-            <div className="links-text3">
-            <div id="phone" className="contact-text no-select">
-              <div>
-                (425)
-              </div>
-              <div>
-                829-
-              </div>
-              <div>
-                2988
-              </div>
-            </div>
-            </div>
             <div className="links-icon4">
               <img src="/email-icon.png" className="contact-tile no-select" />
             </div>
