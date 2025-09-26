@@ -1,5 +1,22 @@
 import React, {Component} from 'react';
 import './App.css';
+import LinkCard from './LinkCard';
+
+const links = [
+  {
+    titleElement: (
+      <span>
+        Home Assistant
+      </span>
+    ),
+    uri: 'https://www.home-assistant.io/',
+    descriptionElements: (
+      <div>
+        <p>The best smart home solution, IMO.</p>
+      </div>
+    ),
+  }
+]
 
 class App extends Component {
   render () {
@@ -30,6 +47,14 @@ class App extends Component {
               </svg>
             </a>
           </p>
+          <h2>Link House</h2>
+          {
+            links.length > 0 && (
+              <ul>
+                {links.map(link => <LinkCard {...link} />)}
+              </ul>
+            )
+          }
         </main>
       </div>
     );
